@@ -28,7 +28,7 @@
   margin: 200px 70px 200px 70px;
 }
 
-@media all and (min-width: 738px) and (max-width: 955px) {
+@media all and (min-width: 738px) and (max-width: 1213px) {
   .App {
     background-image: url("https://i.pinimg.com/564x/aa/7a/28/aa7a28d3a6f05de95f69176e3312a7d4.jpg");
     background-position: center;
