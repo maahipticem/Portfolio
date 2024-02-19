@@ -1,0 +1,35 @@
+.containerNavbar {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: rgba(244, 244, 244, 0.996);
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 2px darkgoldenrod; */
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: darkgoldenrod;
+}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

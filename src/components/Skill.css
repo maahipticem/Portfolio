@@ -1,0 +1,58 @@
+.containerSkill {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  color: white;
+  margin-bottom: 200px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 30px;
+}
+
+.ul {
+  margin-bottom: 30px;
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+.oneSkill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (min-width: 414px) and (max-width: 737px) {
+  .containerSkill {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 200px;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .oneSkill {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+  .ul {
+    margin-bottom: 30px;
+    margin-right: 50px;
+  }
+}
