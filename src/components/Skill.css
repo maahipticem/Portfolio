@@ -3,56 +3,62 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-around;
-  color: white;
-  margin-bottom: 200px;
+  color: rgb(55, 41, 50);
+
   font-size: 20px;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 .title {
+  padding-top: 60px;
   text-align: center;
-  color: white;
-  font-size: 20px;
-  text-shadow: 2px 2px 4px #000000;
+
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #000000;
   margin-bottom: 30px;
 }
 
 .ul {
-  margin-bottom: 30px;
-  color: darkgoldenrod;
+  color: rgb(156, 134, 148);
   font-weight: bold;
 }
 
 li {
   list-style: none;
+  font-weight: bold;
+  /* text-shadow: 2px 2px 4px #000000; */
 }
 
 .oneSkill {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 60px;
 }
-
-@media all and (min-width: 414px) and (max-width: 737px) {
+.containerDiv {
+  background-color: rgb(240, 235, 235);
+}
+@media all and (min-width: 360px) and (max-width: 737px) {
   .containerSkill {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
     color: white;
-    margin-bottom: 200px;
+
     font-size: 20px;
     text-shadow: 2px 2px 4px #000000;
   }
 
   .oneSkill {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: stretch;
     justify-content: space-around;
+    margin-left: 50px;
   }
   .ul {
     margin-bottom: 30px;
     margin-right: 50px;
+    text-align: center;
   }
 }

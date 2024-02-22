@@ -2,7 +2,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div className="containerContact">
       <h2 className="title">CONTACT</h2>
       <div className="github">
         <a className="git" href="https://github.com/maahipticem">

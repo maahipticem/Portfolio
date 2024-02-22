@@ -44,12 +44,13 @@ function App() {
             </p>
           </div>
         </section>
-        <section ref={skillRef}>
-          <Skill />
-        </section>
         <section ref={projetRef}>
           <Projets />
         </section>
+        <section ref={skillRef}>
+          <Skill />
+        </section>
+
         <section ref={contactRef}>
           <Contact />
         </section>

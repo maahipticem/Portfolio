@@ -7,7 +7,7 @@ function Projets() {
       <h2 className="title">PROJECTS</h2>
       <div className="containerProjet">
         <div className="projet">
-          <h2>Time News</h2>
+          <h3>Time News</h3>
           <p className="projetParagraphe">
             Projet : Journal permettant de consulter en ligne differents
             articles. Un systeme de messagerie est mis en place afin de prendre
@@ -15,7 +15,7 @@ function Projets() {
           </p>
         </div>
         <div className="projet">
-          <h2>HQM Immobilier</h2>
+          <h3>HQM Immobilier</h3>
           <p className="projetParagraphe">
             projet : Site de vente de maison de luxe. Sur cette application, il
             y a une partie utilisateur qui permet d'avoir accès à l'ensemble des
@@ -24,7 +24,7 @@ function Projets() {
           </p>
         </div>
         <div className="projet">
-          <h2>Externatic</h2>
+          <h3>Externatic</h3>
           <p className="projetParagraphe">
             Cabinet de recrutement informatique. L'utisateur à accès aux offres.
             Pour postuler à une offre, il doit créer un identifiant. Il y a une
@@ -39,7 +39,7 @@ function Projets() {
           </a>
         </div>
         <div className="projet">
-          <h2>Quizz challenge</h2>
+          <h3>Quizz challenge</h3>
           <p className="projetParagraphe">
             {" "}
             Quizz général. Exemple de quizz. Le nombre de questions depends de
@@ -54,7 +54,7 @@ function Projets() {
           </a>
         </div>
         <div className="projet">
-          <h2>Hackawild</h2>
+          <h3>Hackawild</h3>
           <p className="projetParagraphe">
             Projet en groupe. L'utilisateur doit remplire un questionnaire. S'il
             a été sage le calendrier de l'avent se débloque. S'il n'a pas été

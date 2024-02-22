@@ -6,11 +6,15 @@
 }
 
 .App {
-  background-image: url("https://i.pinimg.com/564x/aa/7a/28/aa7a28d3a6f05de95f69176e3312a7d4.jpg");
+  /* background-image: url("https://t4.ftcdn.net/jpg/04/43/78/69/360_F_443786904_llLh0QyyHPfRyBJyssiUIKwlmsBksREH.jpg"); */
+  /* background-image: url("https://img.pikbest.com/png-images/mobile-application-development-on-laptop-screen-concept-background_1407775.png!f305cw"); */
+  /* background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p3/9392527-page-web-sur-un-ecran-d-ordinateur-portable-un-telephone-mobile-est-couche-un-nuage-un-service-cloud-ou-une-application-fond-technologique-moderne-isometrie-banniere-conceptuelle-des-technologies-du-web-vectoriel.jpg"); */
+  background-image: url("https://i.pinimg.com/564x/4c/e2/b7/4ce2b7e39b8759e088cd6398e8a24f53.jpg");
+  /* background-image: url(https://us.123rf.com/450wm/1001holiday/1001holiday1901/1001holiday190100014/126388626-ordinateur-portable-vierge-isom%C3%A9trique-isol%C3%A9-sur-bleu-fonc%C3%A9-illustration-vectorielle.jpg?ver=6); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350vh;
+  height: 100vh;
   width: 100vw;
   position: relative;
   /* voir pour positio fixed */
@@ -21,33 +25,46 @@
 }
 
 .presentation {
-  color: white;
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* height: 80vh;
+  width: 80vw; */
+  color: rgb(55, 41, 50);
+  font-weight: bolder;
+  /* color: white; */
   text-align: center;
   font-size: 25px;
-  text-shadow: 2px 2px 4px #000000;
-  margin: 200px 70px 200px 70px;
+  /* text-shadow: 2px 2px 4px #000000; */
+  margin: 0px 70px 0px 70px;
+  padding-top: 160px;
+  padding-bottom: 200px;
 }
 
 @media all and (min-width: 738px) and (max-width: 1213px) {
   .App {
-    background-image: url("https://i.pinimg.com/564x/aa/7a/28/aa7a28d3a6f05de95f69176e3312a7d4.jpg");
+    background-image: url("https://i.pinimg.com/564x/4c/e2/b7/4ce2b7e39b8759e088cd6398e8a24f53.jpg");
+
+    /* background-image: url("https://i.pinimg.com/564x/aa/7a/28/aa7a28d3a6f05de95f69176e3312a7d4.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
     /* voir pour positio fixed */
   }
 }
 
-@media all and (min-width: 414px) and (max-width: 737px) {
+@media all and (min-width: 36px) and (max-width: 737px) {
   .App {
-    background-image: url("https://i.pinimg.com/564x/aa/7a/28/aa7a28d3a6f05de95f69176e3312a7d4.jpg");
+    background-image: url("https://i.pinimg.com/564x/4c/e2/b7/4ce2b7e39b8759e088cd6398e8a24f53.jpg");
+
+    /* background-image: url("https://i.pinimg.com/564x/aa/7a/28/aa7a28d3a6f05de95f69176e3312a7d4.jpg"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550vh;
+    height: 170vh;
     width: 100vw;
     position: relative;
     /* voir pour positio fixed */

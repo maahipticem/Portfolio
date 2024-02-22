@@ -1,19 +1,20 @@
+.containerContact {
+  background-color: rgb(240, 235, 235);
+}
+
 .git {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  margin-top: 20px;
+  color: rgb(55, 41, 50);
 }
 .title {
   text-align: center;
-  color: white;
-  font-size: 20px;
-  margin-top: 200px;
-  text-shadow: 2px 2px 4px #000000;
+
+  color: rgb(156, 134, 148);
 }
 .github {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  text-shadow: 2px 2px 4px #000000;
+  font-weight: bolder;
+  padding-bottom: 30px;
 }

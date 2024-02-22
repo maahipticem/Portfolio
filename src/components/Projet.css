@@ -4,11 +4,10 @@
   flex-direction: row;
   align-items: stretch;
   justify-content: space-around;
-  text-shadow: 2px 2px 4px #000000;
 }
 .projet {
   border: 2px solid rgb(85, 79, 79);
-  color: rgb(241, 236, 236);
+  color: rgb(55, 41, 50);
   box-shadow: 6px 16px 36px 13px rgba(101, 98, 98, 0.29);
   -webkit-box-shadow: 6px 16px 36px 13px rgba(13, 13, 13, 0.971);
   -moz-box-shadow: 6px 16px 36px 13px rgba(248, 242, 242, 0);
@@ -17,18 +16,26 @@
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
   -o-transition: all 1s;
-  margin: 20px;
-  text-shadow: 2px 2px 4px #000000;
+  margin: 10px;
+  /* text-shadow: 2px 2px 4px #000000; */
+  font-weight: bold;
   padding: 20px;
   text-align: center;
   border-radius: 20px;
 }
 
+h3 {
+  color: rgb(156, 134, 148);
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(55, 41, 50);
+}
+
 .title {
   text-align: center;
-  color: white;
-  font-size: 20px;
-  text-shadow: 2px 2px 4px #000000;
+  font-size: 40px;
 }
 
 .projetParagraphe {
@@ -37,27 +44,32 @@
 }
 
 .visiter {
-  color: darkgoldenrod;
+  color: rgb(156, 134, 148);
 }
 
-@media all and (min-width: 738px) and (max-width: 955px) {
-  .containerProjet {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-around;
-    text-shadow: 2px 2px 4px #000000;
-  }
+.divProjet {
+  background-color: rgb(240, 235, 235);
+  padding-bottom: 60px;
 }
 
-@media all and (min-width: 414px) and (max-width: 737px) {
+@media all and (min-width: 738px) and (max-width: 1038px) {
   .containerProjet {
     display: grid;
     grid-template-columns: auto;
     flex-direction: row;
     align-items: stretch;
     justify-content: space-around;
-    text-shadow: 2px 2px 4px #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 737px) {
+  .containerProjet {
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    /* text-shadow: 2px 2px 4px #000000; */
   }
 }

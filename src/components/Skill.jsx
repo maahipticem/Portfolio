@@ -2,7 +2,7 @@ import "./Skill.css";
 
 function Skill() {
   return (
-    <div>
+    <div className="containerDiv">
       <h2 className="title">SKILLS</h2>
       <div className="containerSkill">
         <div className="oneSkill">
