@@ -53,7 +53,7 @@ function Projets() {
             Clique ici pour visiter le site
           </a>
         </div>
-        <div className="projet">
+        {/* <div className="projet">
           <h3>Hackawild</h3>
           <p className="projetParagraphe">
             Projet en groupe. L'utilisateur doit remplire un questionnaire. S'il
@@ -64,7 +64,7 @@ function Projets() {
           <a className="visiter" href="https://github.com/valihna/HackaWild">
             Clique ici pour en savoir plus
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
