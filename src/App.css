@@ -56,7 +56,7 @@
   }
 }
 
-@media all and (min-width: 36px) and (max-width: 737px) {
+@media all and (min-width: 360px) and (max-width: 737px) {
   .App {
     background-image: url("https://i.pinimg.com/564x/4c/e2/b7/4ce2b7e39b8759e088cd6398e8a24f53.jpg");
 
@@ -64,9 +64,25 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 170vh;
+    height: 160vh;
     width: 100vw;
     position: relative;
     /* voir pour positio fixed */
+  }
+  .presentation {
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: 80vh;
+    width: 80vw; */
+    color: rgb(110, 66, 95);
+    font-weight: bolder;
+    /* color: white; */
+    text-align: center;
+    font-size: 25px;
+    /* text-shadow: 2px 2px 4px #000000; */
+    margin: 0px 50px 0px 50px;
+    padding-top: 160px;
+    padding-bottom: 200px;
   }
 }
